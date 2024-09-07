@@ -40,12 +40,13 @@ img {
     max-width: 6rem;
     height: auto;
     border-radius: 50%;
-    border: 0.5rem solid white;
+    border: 0.3rem solid white;
     margin-top: -3rem;
 }
 
 .information {
     width: 100%;
+    margin-top:1.5rem;
 }
 
 .information p {
@@ -65,6 +66,7 @@ img {
 
 .location {
     font-size: 0.8rem;
+    font-weight: 400;
     color: hsl(0, 0%, 59%);
     text-align: center;
     padding: 0.5rem 0 1.5rem 0;
@@ -72,9 +74,7 @@ img {
 
 .other-info {
     display: flex;
-  justify-content: space-around;
-  /* padding:1.5rem; */
-}
+    justify-content: space-around;}
 
 .type {
     font-size: 0.7rem;
