@@ -46,7 +46,7 @@ img {
 
 .information {
     width: 100%;
-    margin-top:1.5rem;
+    margin-top:1.2rem;
 }
 
 .information p {
@@ -54,7 +54,7 @@ img {
 }
 
 .name, .number {
-    font-weight: 700;
+    font-weight: 800;
     font-size: 1rem;
     color: hsl(229, 23%, 23%);
 }
@@ -69,24 +69,26 @@ img {
     font-weight: 400;
     color: hsl(0, 0%, 59%);
     text-align: center;
-    padding: 0.5rem 0 1.5rem 0;
+    padding: 0.5rem 0 1rem 0;
 }
 
 .other-info {
     display: flex;
-    justify-content: space-around;}
+    justify-content: space-evenly;}
 
 .type {
-    font-size: 0.7rem;
+    font-size: 0.5rem;
+    letter-spacing: 0.1rem;
     color: hsl(0, 0%, 59%);
+    margin-top: 3px;
 }
 
 .column {
     text-align: center;
-    padding: 2rem 0;
+    padding: 1.5rem 0;
 }
 
 hr {
-    opacity: 0.5;
+    opacity: 0.3;
     
 }
